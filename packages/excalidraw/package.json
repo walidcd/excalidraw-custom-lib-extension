@@ -87,8 +87,8 @@
     "image-blob-reduce": "3.0.1",
     "jotai": "2.11.0",
     "jotai-scope": "0.7.2",
-    "lodash.throttle": "4.1.1",
     "lodash.debounce": "4.0.8",
+    "lodash.throttle": "4.1.1",
     "nanoid": "3.3.3",
     "open-color": "1.9.1",
     "pako": "2.0.3",
@@ -101,6 +101,7 @@
     "pwacompat": "2.0.17",
     "roughjs": "4.6.4",
     "sass": "1.51.0",
+    "svg-to-excalidraw": "0.0.2",
     "tunnel-rat": "0.1.2"
   },
   "devDependencies": {
