@@ -107,6 +107,16 @@ export const PlusIcon = createIcon(
   tablerIconProps,
 );
 
+// tabler-icons: plusImage
+export const PlusImageIcon = createIcon(
+  <svg strokeWidth="1.5">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <line x1="12" y1="5" x2="12" y2="19" />
+    <line x1="5" y1="12" x2="19" y2="12" />
+  </svg>,
+  tablerIconProps,
+);
+
 // tabler-icons: dots-vertical
 export const DotsIcon = createIcon(
   <g strokeWidth="1.5">

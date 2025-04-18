@@ -295,6 +295,17 @@ const LayerUI = ({
                               onChange={onLockToggle}
                               title={t("toolBar.lock")}
                             />
+                            <button
+                              className="custom-import-button"
+                              title="Import PNG"
+                              onClick={() => {
+                                //open a drag and drop dialog
+
+                                alert("Import PNG");
+                              }}
+                            >
+                              🖼️
+                            </button>
 
                             <div className="App-toolbar__divider" />
 
@@ -420,6 +431,7 @@ const LayerUI = ({
       >
         {t("toolBar.library")}
       </DefaultSidebar.Trigger>
+
       <DefaultOverwriteConfirmDialog />
       {appState.openDialog?.name === "ttd" && <TTDDialog __fallback />}
       {/* ------------------------------------------------------------------ */}
