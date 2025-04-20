@@ -6,7 +6,6 @@ import svgToEx from "svg-to-excalidraw";
 
 import { fileOpen } from "../data/filesystem";
 
-import { parseAndConvertSVGToElements } from "../utils/svg-import";
 
 import { restoreElements } from "../data/restore";
 

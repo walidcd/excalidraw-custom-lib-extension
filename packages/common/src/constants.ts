@@ -408,6 +408,7 @@ export const DEFAULT_ELEMENT_PROPS: {
 
 export const LIBRARY_SIDEBAR_TAB = "library";
 export const CANVAS_SEARCH_TAB = "search";
+export const IMPORT_CUSTOM_ICON_TAB = "import-custom-icon";
 
 export const DEFAULT_SIDEBAR = {
   name: "default",

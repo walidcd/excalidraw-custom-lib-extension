@@ -1135,6 +1135,7 @@ const ExcalidrawWrapper = () => {
             },
           ]}
         />
+
         {isVisualDebuggerEnabled() && excalidrawAPI && (
           <DebugCanvas
             appState={excalidrawAPI.getAppState()}
